@@ -9,5 +9,8 @@
  * @author diky
  */
 public class SelisihBilangan {
-    
+     public void SilisihBilangan() {
+        int jumlah = getX() - getY();
+        System.out.println("Hasil Pengurangan = " + jumlah);
+    }
 }
